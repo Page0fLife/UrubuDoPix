@@ -5,11 +5,17 @@ body{
     font-size: 1.3rem;
     text-align: left;
     color: #0353bd;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: 'DejaVu Sans Mono', monospace;
 }
 .bola{
     font-size: 2rem;
     text-align: center;
     color: #97991b;
-    font-family: DejaVu Sans Mono, monospace;
+    font-family: 'DejaVu Sans Mono', monospace;
+}
+.trade{
+    font-size: 1.2rem;
+    text-align: center;
+    color: #991b1b;
+    font-family: 'DejaVu Sans Mono', monospace;
 }
