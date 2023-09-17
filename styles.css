@@ -1,0 +1,84 @@
+body {
+    background-color: rgb(15, 15, 15);
+    font-family: 'DejaVu Sans Mono', monospace;
+}
+
+header {
+    background-color: rgb(31, 31, 31);
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #ffbd00;
+}
+
+section {
+    display: -webkit-flex;
+    display: flex;
+
+}
+
+nav {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: rgb(31, 31, 31);
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: rgb(15, 15, 15);
+    padding: 10px;
+}
+
+footer {
+    background-color: rgb(31, 31, 31);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+label,
+textarea {
+    display: block;
+}
+
+textarea {
+    margin: 15px 0;
+    width: 250px;
+    height: 100px
+}
+
+@media (max-width: 600px) {
+    section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.intro {
+    font-size: 1.3rem;
+    text-align: left;
+    color: #0353bd;
+
+}
+
+.bola {
+    font-size: 20px;
+    color: #ffbd00;
+
+}
+
+.trade {
+    font-size: 1.2rem;
+    text-align: center;
+    color: #991b1b;
+
+}
