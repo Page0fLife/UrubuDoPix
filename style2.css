@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(15, 15, 15);
+    font-family: 'DejaVu Sans Mono', monospace;
+    text-align: center;
+    
+}
+
+.intro {
+    font-size: 1.3rem;
+    text-align: center;
+    color: #0353bd;
+
+}
+
+.bola {
+    font-size: 20px;
+    color: #ffbd00;
+    text-align: center;
+
+}
